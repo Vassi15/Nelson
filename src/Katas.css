@@ -1,0 +1,24 @@
+#katas {
+  background: linear-gradient(180deg, #0c0c0c2c 0%, #ffffff 100%);
+  border-top: 2px solid #d90429;
+}
+
+.kata-video-card {
+  transition: transform 0.3s ease;
+  padding: 10px;
+}
+
+.kata-video-card:hover {
+  transform: scale(1.03);
+}
+
+.kata-video-card h5 {
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Para que los bordes de los videos sean elegantes */
+.ratio {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

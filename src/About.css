@@ -1,0 +1,48 @@
+.about-section {
+  background-color: #eee9e9;
+}
+
+.main-title {
+  color: #1a1a1a;
+  letter-spacing: 1px;
+}
+
+.shoto-title {
+  color: #d90429; /* Rojo marcial */
+  font-weight: 800;
+  border-left: 5px solid #d90429;
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.txt-historia {
+  color: #444;
+  line-height: 1.8; /* Más espacio entre líneas para lectura fácil */
+  text-align: justify;
+}
+
+.txt-historia p {
+  margin-bottom: 1.5rem;
+}
+
+.about-img-container img {
+  transition: transform 0.4s ease;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-img-container img:hover {
+  transform: scale(1.02);
+}
+
+/* Ajuste para tablets */
+@media (max-width: 991px) {
+  .ps-lg-5 {
+    padding-left: 15px !important;
+    margin-top: 2rem;
+  }
+  .shoto-title {
+    display: block;
+    text-align: center;
+  }
+}

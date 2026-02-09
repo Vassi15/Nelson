@@ -1,0 +1,47 @@
+.filosofia-section {
+  background-color: #fcfcfc;
+  background-image: url('https://www.transparenttextures.com/patterns/paper.png'); /* Textura sutil de papel */
+}
+
+.divider {
+  width: 100px;
+  height: 4px;
+  background-color: #d90429;
+  border: none;
+  opacity: 1;
+}
+
+.precepto-item {
+  border-left: 0;
+  border-right: 0;
+  transition: all 0.2s ease;
+  background: white;
+}
+
+.precepto-item:hover {
+  background-color: #fffafa;
+  transform: translateX(5px);
+}
+
+.precepto-num {
+  background-color: #1a1a1a;
+  color: white;
+  min-width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.precepto-es {
+  color: #222;
+  font-size: 0.95rem;
+}
+
+/* Efecto para que no se vea tan plano */
+.list-group {
+  border-top: 3px solid #1a1a1a;
+}

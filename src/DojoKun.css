@@ -1,0 +1,23 @@
+.kun-number {
+  color: #d90429;
+  font-weight: bold;
+  margin-right: 15px;
+  border-right: 2px solid #dee2e6;
+  padding-right: 15px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f8f9fa;
+  color: #d90429;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0,0,0,.125);
+}
+
+.accordion-header strong {
+  font-family: 'Georgia', serif; /* Un toque más elegante para el japonés */
+  letter-spacing: 0.5px;
+}

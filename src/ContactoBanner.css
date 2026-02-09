@@ -1,0 +1,31 @@
+.contacto-banner {
+  background-color: #f8f9fa; /* Fondo gris muy claro para separar de otras secciones */
+  margin-top: -50px; /* Un pequeño truco visual para que parezca que flota */
+  position: relative;
+  z-index: 5;
+}
+
+.contacto-banner .container {
+  background: linear-gradient(145deg, #1a1a1a, #2c2c2c);
+  border-left: 6px solid #d90429; /* Detalle rojo JKA */
+}
+
+.contacto-banner h2 {
+  letter-spacing: 1px;
+}
+
+.contacto-banner .btn-danger {
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.contacto-banner .btn-danger:hover {
+  background-color: #b30322;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(217, 4, 41, 0.4);
+}
+
+.contact-info h5 {
+  color: #fff;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,42 @@
+.footer-custom {
+  background-color: #121212; /* Un negro un poco más suave que el puro */
+  color: #ffffff;
+  border-top: 4px solid #d90429; /* Línea roja distintiva de JKA */
+}
+
+.footer-quote p {
+  font-size: 1.2rem;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.social-links a {
+  color: #ffffff;
+  font-size: 1.8rem;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #d90429;
+  transform: translateY(-5px); /* Pequeño brinco al pasar el mouse */
+}
+
+.footer-divider {
+  width: 50%;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 20px 0;
+}
+
+.footer-credits {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.creator-tag {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.bi-heart-fill {
+  font-size: 0.7rem;
+}

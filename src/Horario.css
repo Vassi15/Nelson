@@ -1,0 +1,38 @@
+.custom-table thead th {
+  background-color: #d90429;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding: 15px;
+}
+
+.category-name {
+  background-color: #f8f9fa;
+  color: #d90429; /* Rojo JKA */
+  vertical-align: middle;
+}
+
+.table-infantil { background-color: rgba(13, 202, 240, 0.05); } /* Azul muy clarito */
+.table-jovenes { background-color: #ffffff; }
+.table-adultos { background-color: rgba(13, 202, 240, 0.05); }
+
+.no-class {
+  color: #dee2e6;
+  font-weight: 300;
+}
+
+.divider {
+  width: 60px;
+  height: 4px;
+  background-color: #d90429;
+  border: none;
+  opacity: 1;
+  margin-top: 10px;
+}
+
+/* Efecto hover en las celdas */
+.custom-table tbody tr:hover {
+  background-color: rgba(217, 4, 41, 0.05) !important;
+  transition: 0.3s;
+}

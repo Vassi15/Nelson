@@ -1,0 +1,79 @@
+/* Asegura que los títulos de los dropdowns sean blancos */
+.fondo{
+  background: rgb(190, 23, 23);
+}
+.JKA{
+  color: #ffc107;
+}
+.CANARIAS{
+  color: #0d6efd;
+}
+.nav-link, .navbar-nav .show > .nav-link {
+  color: white !important;
+}
+/* El contenedor de la lista (la cajita que cae) */
+.dropdown-menu {
+  background-color: rgb(247, 247, 247) !important; /* Gris muy oscuro */
+  border: none;        /* Borde amarillo JKA */
+  border-radius: 8px;
+  padding: 10px 0;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.164);
+}
+
+/* Los links dentro de la lista */
+.dropdown-item {
+  color: #080808 !important;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+/* Cuando pasas el ratón por encima de Katas, Horarios, etc. */
+.dropdown-item:hover {
+  background-color: #ffc107 !important; /* Fondo amarillo */
+  color: #000000 !important;            /* Texto negro */
+  padding-left: 25px;                   /* Pequeño efecto de movimiento */
+}
+
+/* La línea divisoria si decides usar <NavDropdown.Divider /> */
+.dropdown-divider {
+  border-top: 1px solid #444;
+}
+
+/* Cambia el color al pasar el ratón por los items del menú */
+.dropdown-item:hover {
+  background-color: #ffc107; /* Amarillo JKA */
+  color: rgb(238, 6, 6);
+}
+
+/* Estilo para el botón de contacto */
+.btn-outline-warning:hover {
+  color: black !important;
+  
+}
+
+/*Estilos para el hero*/
+
+/* Ajuste para que las leyendas del carrusel se lean mejor */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Efecto al pasar el ratón por el botón del formulario */
+.btn-danger {
+    background-color: #ee0606;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #b30505;
+    transform: scale(1.02);
+}
+
+/* Sombra suave para el formulario */
+.bg-light.shadow {
+    border-top: 5px solid #ffc107; /* Línea amarilla arriba del formulario */
+}

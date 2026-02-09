@@ -1,0 +1,51 @@
+.actividad-card {
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.actividad-card:hover {
+  transform: translateY(-10px); /* Efecto de levante */
+}
+
+.actividad-card img {
+  width: 100%;
+  height: 400px; /* Altura fija para que todos los carteles se vean iguales */
+  object-fit: cover; /* Recorta la imagen para llenar el espacio sin deformarse */
+  border: 4px solid white;
+}
+
+/* Personalización de colores de las flechas de Swiper (Opcional) */
+.swiper-button-next, .swiper-button-prev {
+  color: #d90429 !important; /* Rojo JKA */
+}
+
+.swiper-pagination-bullet-active {
+  background: #d90429 !important;
+}
+/* Para que el fondo del modal sea más oscuro (estilo Lightbox) */
+.modal-backdrop.show {
+  opacity: 0.85;
+}
+
+.modal-content {
+  background-color: transparent; /* Hace que destaque solo la imagen */
+  border: none;
+}
+
+/* Efecto de zoom suave al pasar el mouse por las cards */
+.hover-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.05);
+}
+
+.actividad-card h5 {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.actividad-card:hover h5 {
+  color: #d90429; /* Color rojo JKA al pasar el mouse */
+}
