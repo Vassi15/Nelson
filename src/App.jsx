@@ -8,6 +8,7 @@ import Horario from './Horario.jsx'
 import ContactoBanner from './ContactoBanner.jsx'
 import Footer from './Footer.jsx'
 import Katas from './Katas.jsx'
+import Wigdet from './Wigdet.jsx'
 import './App.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Filosofia/>
       <DojoKun/>
       <Katas/>
+      <Wigdet/>
       <Horario/>
       <ContactoBanner/>
       <Footer/>
